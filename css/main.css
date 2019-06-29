@@ -1,0 +1,198 @@
+/* Specification */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f7fcfe;
+  color: #727272;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+ul, li {
+  marign: 0;
+  padding: 0;
+  display: block;
+}
+
+/* Header */
+header {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #253b80;
+  color: white;
+}
+
+/* Header - top menu */
+.topLine {
+  background-color: #179bd7;
+  height: auto;
+  width: auto;
+}
+
+.menu {
+  padding: 10px 15px 10px 15px;
+  margin: 0;
+}
+.menu__item {
+  border-right: 1px solid #c5e6f5;
+}
+.menu__item:first-child {
+  border-left: 1px solid #c5e6f5;
+}
+.menu__item a {
+  color: #c5e6f5;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-weight: 400;
+}
+    .menu__item a:hover {
+    color: white;
+    }
+
+/* Header - middle part */
+.titleline {
+  padding-top: 60px;
+}
+.titleline h6 {
+  color: #9ab8d1;
+}
+.titleline a {
+  text-decoration: none;
+  color: white;
+}
+.titleline ul {
+display: block;
+}
+.titleline li {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.titleline img {
+  padding-top: 5px;
+}
+
+/* Header - bottom part */
+.menuBottom {
+  display: block;
+  height: auto;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  background-color: #f7fcfe;
+}
+
+.menuBottom__item {
+  border-right: 2px solid #253b80;
+}
+.menuBottom__item:first-child {
+  border-left: 2px solid #253b80;
+}
+.menuBottom__item a {
+  text-decoration: none;
+  font-weight: 600;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #253b80;
+}
+.menuBottom__item a:hover {
+  color: orange;
+}
+
+/* Content section */
+.history {
+  text-align: justify;
+  margin-top: 40px;
+  margin-left: 10px;
+  padding-right: 10px;
+}
+
+.textWrapper {
+  background-color: white;
+  padding: 20px 50px 20px 50px;
+  box-shadow: 0 0 10px #e3e5e6;
+}
+
+.textTitle{
+  color: orange;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.text_list li{
+  display: list-item;
+  margin-left: 25px;
+  padding-left: 15px;
+}
+
+.groupPhoto {
+  width: 100%;
+  padding-right: 20px;
+}
+
+/* Lecturer information */
+.placeholder {
+  width: 100%;
+}
+
+.mainPhotoDescription {
+  padding-right: 25px;
+}
+
+.descriptionMembers {
+display: none;
+}
+.photos {
+width: 15%;
+margin-top: 20px;
+margin-right: 5px;
+}
+
+.photoline {
+  text-align: center;
+}
+/* Footer */
+.footer {
+  height: 105px;
+  background-color: #031358;
+  text-align: center;
+  color: white;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+
+}
+.footer p {
+  color: white;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: orange;
+}
+
+.portrait {
+  width: 95%
+}
+
+.portrait-box {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.building_past {
+  width: 80%;
+}
+.building_now {
+  width: 80%;
+  margin-left: 75px;
+}
