@@ -20,4 +20,16 @@ window.onload= function () {
         this.style.border="0em";
         }
       }
+
+
+  var dropdown= document.getElementById("dropdown");
+  var submenu = document.getElementById("submenu");
+
+  dropdown.onmouseover= function() {
+    submenu.style.display="block";
+
+  }
+  dropdown.onmouseout= function() {
+    submenu.style.display="none";
+  }
 }
