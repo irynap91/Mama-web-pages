@@ -4,6 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b8fb8b3db5.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="img\symb.png">
     <script src="js\main.js" charset="utf-8"></script>
@@ -11,17 +15,51 @@
   </head>
 <body>
   <!-- Header -->
-<header id="header">
-  <div class="topLine">
+<header class="header" id="header">
+
+    <div class="mobile">
+      <nav class="justify-content-end navbar navbar-default" role="navigation">
+          <div class="navbar-header">
+            <input type="image" src="img/menu_mobile.png" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">  </input>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li><a href="istoriya_viddilu.html">Інформація про відділення</a></li>
+              <li><a href="#" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Циклові комісії	&#9662;</a></li>
+                  <div class="collapse" id="collapseExample">
+                      <div class="mobile_submenu card card-body">
+                          <ul class="container-fluid">
+                            <li><a href="tsyklova_komisia_pedahohiky_ta_psyhologii.html">...педагогіки та психології</a></li>
+                            <li><a href="tsyklova_komisia_suspilnykh_dyszyplin.html">...суспільних дисциплін</a></li>
+                            <li><a href="tsyklova_komisia_vykladachiv_ridnoi_movy_ta_metodyky_navchannia.html">...рідної мови та методики навчання</a></li>
+                            <li><a href="tsyklova_komisia_vykladachiv_matematyky_informatyky_i_fizyky.html">...математики, інформатики з методикою навчання і фізики</a></li>
+                            <li><a href="tsyklova_komisia_inozemnykh_mov.html">...іноземних мов</a></li>
+                            <li><a href="tsyklova_komisia_pryrodnychykh_dyszyplin.html">...природничих дисциплін</a></li>
+                            <li><a href="tsyklova_komisia_obrasotvorchoho_mysteztva.html">...образотворчого мистецтва з методикою навчання</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              <li><a href="pedahohichna_praktyka.html">Педагогічна практика</a></li>
+              <li><a href="abiturientu.html">Абітурієнту</a></li>
+              <li><a href="https://pedkoledzh.cv.ua/">На Головну</a></li>
+            </ul>
+          </div>
+      </nav>
+    </div>
+
+
+  <div class="top_line">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
+
           <nav>
             <ul class="menu d-flex justify-content-end">
-              <li class="menu__item"><a href="#">Головна</a></li>
-              <li class="menu__item"><a href="#">Структурні підрозділи</a></li>
-              <li class="menu__item"><a href="#">Навчальний процес</a></li>
-              <li class="menu__item"><a href="#">Вступ на навчання-2019</a></li>
+              <li class="menu_item"><a href="https://pedkoledzh.cv.ua/">Головна</a></li>
+              <li class="menu_item"><a href="https://pedkoledzh.cv.ua/?page_id=851">Структурні підрозділи</a></li>
+              <li class="menu_item"><a href="https://pedkoledzh.cv.ua/?page_id=1883">Навчальний процес</a></li>
+              <li class="menu_item"><a href="https://pedkoledzh.cv.ua/?page_id=2175">Вступ на навчання-2019</a></li>
             </ul>
           </nav>
         </div>
@@ -30,23 +68,25 @@
   </div>
 
 <div class="container">
-    <div class="row titleline">
+    <div class="row title_line">
 
       <div class="col-lg-1">
         <img src="img\symb.png" alt="Педагогічний коледж Чернівецького національного університету ім. Ю. Федьковича">
       </div>
 
-      <div class="col-lg-6">
+      <div class="col-lg-5 col-xl-6">
+
         <h2 class="h2" style="color: white">Шкільне відділення</h2>
-        <h6 class="h6">Педагогічного коледжу<br>Чернівецького національного університету ім. Ю. Федьковича</h6>
+        <h6 class="h6">Педагогічного коледжу<br>Чернівецького національного університету ім.&nbspЮ.&nbspФедьковича</h6>
       </div>
 
-      <div class="col-lg-5">
+      <div class="contacts col-lg-6 col-xl-5">
+
         <ul class="d-flex">
-        <li><img src="img/icon_phone.png" alt="Телефон"></li>
-        <li><a class="quick=call" href="tel:380372522850">+380 372 52 28 50</a><br><a class="quick-email" href="mailto:admin@pedkoledzh.cv.ua">admin@pedkoledzh.cv.ua</a></li>
-        <li><img src="img/icon_house.png" alt="Адреса"></li>
-        <li>58002, м. Чернівці<br>вул. Горького, 23<br>Корпус 1</li>
+          <li><img src="img/icon_phone.png" alt="Телефон"></li>
+          <li><a class="quick=call" href="tel:380372522850">+380 372 52 28 50</a><br><a class="quick-email" href="mailto:admin@pedkoledzh.cv.ua">admin@pedkoledzh.cv.ua</a></li>
+          <li><img src="img/icon_house.png" alt="Адреса"></li>
+          <li>58002, м. Чернівці<br>вул. Горького, 23<br>Корпус 1</li>
       </ul>
       </div>
 
@@ -56,22 +96,23 @@
 <div class="container">
   <div class="row">
       <div class="col-lg-12">
-        <nav>
-          <ul class="menuBottom d-flex">
-            <li class="menuBottom__item"><a href="#">Інформація про відділення</a></li>
-            <li class="menuBottom__item"  id="dropdown"><a href="#">Циклові комісії	&#9662;</a>
+
+        <nav class="menu_bottom">
+          <ul class="d-flex ">
+            <li class="menu_bottom_item"><a href="istoriya_viddilu.html">Інформація про відділення</a></li>
+            <li class="menu_bottom_item"  id="dropdown"><a href="#">Циклові комісії	&#9662;</a>
               <div class="submenu" id="submenu">
               <ul>
-                  <li><a href="tsyklova_komisia_inozemnykh_mov.html">Циклова комісія викладачів іноземних мов</a></li>
-                  <li><a href="tsyklova_komisia_obrasotvorchoho_mysteztva.html">Циклова комісія викладачів образотворчого мистецтва з методикою навчання</a></li>
-                  <li><a href="tsyklova_komisia_pedahohiky_ta_psyhologii.html">Циклова комісія викладачів педагогіки та психології</a></li>
-                  <li><a href="tsyklova_komisia_pryrodnychykh_dyszyplin.html">Циклова комісія викладачів природничих дисциплін</a></li>
-                  <li><a href="tsyklova_komisia_suspilnykh_dyszyplin.html">Циклова комісія викладачів суспільних дисциплін</a></li>
-                  <li><a href="tsyklova_komisia_vykladachiv_matematyky_informatyky_i_fizyky.html">Циклова комісія викладачів математики, інформатики з методикою навчання і фізики</a></li>
-                  <li><a href="tsyklova_komisia_vykladachiv_ridnoi_movy_ta_metodyky_navchannia.html">Циклова комісія викладачів рідної мови та методики навчання</a></li>
+                <li><a href="tsyklova_komisia_pedahohiky_ta_psyhologii.html">Циклова комісія викладачів педагогіки та психології</a></li>
+                <li><a href="tsyklova_komisia_suspilnykh_dyszyplin.html">Циклова комісія викладачів суспільних дисциплін</a></li>
+                <li><a href="tsyklova_komisia_vykladachiv_ridnoi_movy_ta_metodyky_navchannia.html">Циклова комісія викладачів рідної мови та методики навчання</a></li>
+                <li><a href="tsyklova_komisia_vykladachiv_matematyky_informatyky_i_fizyky.html">Циклова комісія викладачів математики, інформатики з методикою навчання і фізики</a></li>
+                <li><a href="tsyklova_komisia_inozemnykh_mov.html">Циклова комісія викладачів іноземних мов</a></li>
+                <li><a href="tsyklova_komisia_pryrodnychykh_dyszyplin.html">Циклова комісія викладачів природничих дисциплін</a></li>
+                <li><a href="tsyklova_komisia_obrasotvorchoho_mysteztva.html">Циклова комісія викладачів образотворчого мистецтва з методикою навчання</a></li>
               </ul></div></li>
-            <li class="menuBottom__item"><a href="#">Педагогічна практика</a></li>
-            <li class="menuBottom__item"><a href="#">Групи</a></li>
+            <li class="menu_bottom_item"><a href="pedahohichna_praktyka.html">Педагогічна практика</a></li>
+            <li class="menu_bottom_item"><a href="abiturientu.html">Абітурієнту</a></li>
             </ul>
         </nav>
       </div>
@@ -80,15 +121,17 @@
 
 </header>
 
+
 <!-- Content section -->
 <section class="history" id="history">
   <div class="container">
-    <div class="textWrapper">
+    <div class="text_wrapper">
 
     <div class="row col-lg-12 justify-content-start">
-          <h2 class="textTitle">ЦИКЛОВА КОМІСІЯ ВИКЛАДАЧІВ СУСПІЛЬНИХ ДИСЦИПЛІН</h2>
+          <h2 class="text_title">ЦИКЛОВА КОМІСІЯ ВИКЛАДАЧІВ СУСПІЛЬНИХ ДИСЦИПЛІН</h2>
     </div>
 
+    <div class="text">
     <div class="row col-lg-12">
             <p>Комісія викладачів суспільних дисциплін – одна з найбільших циклових комісій Педагогічного  коледжу Чернівецького національного університету ім.&nbspЮ.&nbspФедьковича. До її складу входять  10  викладачів, з яких 1 кандидат історичних наук, 3  магістри,  6 спеціалістів вищої категорії, з яких  5 мають педагогічне звання  «викладач – методист».</p>
             <p>Формування громадянської позиції, патріотизму, любові до  України – далеко не всі питання, які  на заняттях  розглядають   викладачі суспільних дисциплін, використовуючи прийоми критичного мислення, застосовуючи  традиційні та інтерактивні технології.</p>
@@ -101,7 +144,7 @@
             <p>Викладачами  суспільних дисциплін були проведені такі відкриті заняття: зі всесвітньої історії Москалюк&nbspД.М. «Соціально-економічний та політичний розвиток Японії в міжвоєнний період», Савіцький&nbspЮ.В. «Освіта, наука, техніка, література та мистецтво в міжвоєнний період»; з історії України Курко&nbspГ.А «Соціально-економічний та політичний розвиток українських земель за часів  гетьманування Івана Мазепи», Олійник&nbspГ.С. «Україна в умовах економічної та політичної лібералізації суспільства. 1953-1964 роки», Панівський&nbspІ.Г. «Утвердження радянської влади в Україні в 20-30- і роки ХХ століття»; з основ економічної теорії Ватаманюк&nbspЮ.Ф. «Державне  регулювання економіки»; з соціології Безугла&nbspМ.В. «Соціологія праці».</p>
         </div>
         <div class="col-lg-5">
-            <img class="groupPhoto img-fluid" src="img\comission_susp\common_susp.jpg" alt="Фото">
+            <img class="group_photo img-fluid" src="img\common_susp.jpg" alt="Фото">
         </div>
     </div>
 
@@ -109,18 +152,19 @@
                 <p>На рахунку викладачів - низка цікавих виховних заходів, а саме: дві науково-практичні конференції до 100-річчя Буковинського віча (Панівський&nbspІ.Г, Безугла&nbspМ.В.,  Москалюк&nbspД.М., Курко&nbspГ.А., Олійник&nbspГ.С., Савіцький&nbspЮ.В.), науково-теоретична конференція «500 років Реформації та її вплив  на розвиток світових цивілізаційних процесів» (Курко&nbspГ.А.), круглий стіл «Права та обов’язки молодого спеціаліста» (Бачинський&nbspД.В.), зустріч з воїнами АТО «Життя – це подвиг» (Панівський&nbspІ.Г.), науково-практична конференція «М.&nbspГрушевський – Президент України, громадський діяч, видатний український історик» (Олійник&nbspГ.С.), науково-практичні конференції «Сидір Воробкевич – громадський діяч, композитор» та «100 років Українській революції» (Москалюк&nbspД.М.).</p>
                 <p>В різні часи  викладачами суспільних дисциплін Педагогічного коледжу працювали: Пацурківська&nbspГ.В., Мойсей&nbspА.Є, Максимець&nbspІ.М., а також  Урсуляк&nbspВ.Д., Васєчкін&nbspЛ.І., Алексеєв&nbspА.С, Сільченко&nbspС.Ф., Коча&nbspГ.К.</p>
     </div>
+    </div>
 
     <div class="row col-lg-12 justify-content-start">
-          <h5 class="textTitle">НАУКОВО-ПЕДАГОГІЧНИЙ СКЛАД</h5>
+          <h5 class="text_title">НАУКОВО-ПЕДАГОГІЧНИЙ СКЛАД</h5>
     </div>
 
     <div class="row d-flex">
         <div class="col-lg-4">
-            <img class="placeholder img-fluid" id="placeholder"  src="img\comission_susp\Kurko.jpg" alt="Фото">
+            <img class="placeholder img-fluid" id="placeholder"  src="img\Kurko.jpg" alt="Фото">
         </div>
 
         <div class="col-lg-8">
-          <div class="mainPhotoDescription" id="mainPhotoDescription">
+          <div class="main_photo_description" id="mainPhotoDescription">
           <p><h6><b>Курко Галина Андріївна</b></h6> голова комісії викладачів суспільних дисциплін, голова методичного об’єднання  викладачів суспільних дисциплін вищих навчальних закладів І-ІІ рівнів акредитації Чернівецької області, спеціаліст вищої категорії, викладач-методист. Нагороджена знаком «Відмінник освіти України», Грамотою Міністерства освіти України, грамотами органів місцевої влади, премією ім. Катерини Малик.   У 1973 році закінчила шкільний   відділ Корсунь-Шевченківського педагогічного училища, а  в  1979 році - історичний факультет Чернівецького державного університету. Викладачем суспільних дисциплін у  коледжі працює більше 30 років. <br>
           Упродовж  своєї педагогічної діяльності неодноразово брала участь у проведенні всеукраїнських та обласних олімпіад із суспільних дисциплін, у міжнародних конференціях  під егідою ОБСЄ та інших міжнародних організацій, була головою журі обласного конкурсу «Вчитель року» з правознавства<br>
           Викладає історію України, основи правознавства, основи філософських знань.
@@ -128,7 +172,7 @@
           </div>
         </div>
 
-      <div class="descriptionMembers">
+      <div class="description_members">
 
             <div class="photoDescription">
               <p><h6><b>Курко Галина Андріївна</b></h6> голова комісії викладачів суспільних дисциплін, голова методичного об’єднання  викладачів суспільних дисциплін вищих навчальних закладів І-ІІ рівнів акредитації Чернівецької області, спеціаліст вищої категорії, викладач-методист. Нагороджена знаком «Відмінник освіти України», Грамотою Міністерства освіти України, грамотами органів місцевої влади, премією ім. Катерини Малик.   У 1973 році закінчила шкільний   відділ Корсунь-Шевченківського педагогічного училища, а  в  1979 році - історичний факультет Чернівецького державного університету. Викладачем суспільних дисциплін у  коледжі працює більше 30 років. <br>
@@ -193,24 +237,24 @@
 
     </div>
 
-  <div class="row photoline">
+  <div class="row photo_line">
     <div class="col-lg-12">
-          <img class="photos" src="img\comission_susp\Kurko.jpg" alt="Курко Галина Андріївна">
-          <img class="photos" src="img\comission_susp\Bachynsky.jpg" alt="Бачинський Дмитро Володимирович">
-          <img class="photos" src="img\comission_susp\Panivsky.jpg" alt="Панівський Іван Григорович">
-          <img class="photos" src="img\comission_susp\Moskaliuk.jpg" alt="Москалюк Домна Михайлівна">
-          <img class="photos" src="img\comission_susp\Oliynyk.jpg" alt="Олійник Георгій Северінович">
+          <img class="photos" src="img\Kurko.jpg" alt="Курко Галина Андріївна">
+          <img class="photos" src="img\Bachynsky.jpg" alt="Бачинський Дмитро Володимирович">
+          <img class="photos" src="img\Panivsky.jpg" alt="Панівський Іван Григорович">
+          <img class="photos" src="img\Moskaliuk2.jpg" alt="Москалюк Домна Михайлівна">
+          <img class="photos" src="img\Oliynyk.jpg" alt="Олійник Георгій Северінович">
       </div>
     </div>
 
 
-    <div class="row photoline">
+    <div class="row photo_line">
       <div class="col-lg-12">
-          <img class="photos" src="img\comission_susp\Vatamaniuk.jpg" alt="Ватаманюк Юрій Філаретович">
-          <img class="photos" src="img\comission_susp\Bezuhla.jpg" alt="Безугла Мар’яна Вікторівна">
-          <img class="photos" src="img\comission_susp\Adamov.jpg" alt="Адамов Олександр Сергійович">
-          <img class="photos" src="img\comission_susp\Savitsky.jpg" alt="Савіцький Юрій Володимирович">
-          <img class="photos" src="img\comission_susp\Vilianska.jpg" alt="Вілянська Ніна Олександрівна">
+          <img class="photos" src="img\Vatamaniuk.jpg" alt="Ватаманюк Юрій Філаретович">
+          <img class="photos" src="img\Bezuhla.jpg" alt="Безугла Мар’яна Вікторівна">
+          <img class="photos" src="img\Adamov.jpg" alt="Адамов Олександр Сергійович">
+          <img class="photos" src="img\Savitsky.jpg" alt="Савіцький Юрій Володимирович">
+          <img class="photos" src="img\Vilianska.jpg" alt="Вілянська Ніна Олександрівна">
       </div>
     </div>
 
@@ -223,15 +267,11 @@
     <div class="row justify-content-center">
       <p>© 2011 - 2019 Педколедж ЧНУ. При повному або частковому
         використанні матеріалів посилання на pedkoledzh.cv.ua
-        ОБОВ'ЯЗКОВЕ. Дякуємо за повагу.<br>
-      <a href="#">Наші реквізити та контактні дані</a></p>
+        ОБОВ'ЯЗКОВЕ. Дякуємо за повагу<br>
+      <a href="https://pedkoledzh.cv.ua/?page_id=506">Наші реквізити та контактні дані</a></p>
     </div>
   </div>
 </footer>
-
-<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
 
   </body>
 </html>
